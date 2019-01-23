@@ -52,7 +52,7 @@ if __name__ == "__main__":
         f.write("---\ntitle: " +title.text+ "\ndate: "+str(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))+"\ntags: None\n---\n")
         f.write(str(text))
         f.close()
-    
+    print("Done!")
 
 
 
